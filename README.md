@@ -11,35 +11,35 @@ and in <a href="http://strijov.com/papers/strijov06poisk_jct_en.pdf">the paper</
 The applications are biology, physics, ecology, economics, etc. 
 </p><p>
 Mathematical modeling has two issues:
-first, to create a&nbsp;model of a&nbsp;dynamic system using knowledge
-and second, to discover a&nbsp; model and knowledge using the measured data.
-So there are the&nbsp;model-driven and the&nbsp;data-driven approaches,
+first, to create a model of a dynamic system using knowledge
+and second, to discover a  model and knowledge using the measured data.
+So there are the model-driven and the data-driven approaches,
 and each one has its own strengths and weaknesses.
-The first one gives models that could be interpreted by experts in a&nbsp;field of application but
+The first one gives models that could be interpreted by experts in a field of application but
 usually, they have poor prediction quality.
 The second one gives models of good quality but often too complex and non-interpretable by experts.
 The suggested approach gathers strong sides of these
 two:
-the result the&nbsp ;model could be explained and it relies on the measured
+the result the  model could be explained and it relies on the measured
 data.
 It allows getting the model with fair quality and generalization ability in comparison to universal models.
 </p><p>
-A model is selected from an inductively generated set of the&nbsp;trial models
-according to the&nbsp;notion of adequacy: the&nbsp;model must be simple,
+A model is selected from an inductively generated set of the trial models
+according to the notion of adequacy: the model must be simple,
 stable and precise. These criterions are target functions and they
 are assigned according to given data. It is supposed that given
-data carries the&nbsp;information on the&nbsp;searched model and the&nbsp;noise
-as well. The hypothesis of the&nbsp;probability distribution function
-defines a&nbsp;data generation hypothesis and as follows, the&nbsp;target
+data carries the information on the searched model and the noise
+as well. The hypothesis of the probability distribution function
+defines a data generation hypothesis and as follows, the target
 functions.
 </p><p>
-The outline of the&nbsp;automatic model creation is the&nbsp;following. A
+The outline of the automatic model creation is the following. A
 sample data, which consist of several independent variables and
 one dependent variable are given. Experts makes set of terminal
 function. These models are arbitrary superposition, inductively
 generated using terminal functions.
 Experts could also make initial models for inductive modification.
-When generated models are tuned, a&nbsp;model of the&nbsp;optimal structure is
+When generated models are tuned, a model of the optimal structure is
 selected.
 </p><p>
 Thus, the result is the non-linear regression model of the optimal structure and
@@ -47,21 +47,6 @@ Thus, the result is the non-linear regression model of the optimal structure and
 </li><li> vector of the model parameters, to be used in forecasting
 </li><li> plot of the model is .png of in .eps for TeX publications. 
 </li></ul>
-</p>
-<h2>Installation</h2>
-<p>This software is a Matlab toolbox so you need the Matlab system. There are two ways to use the software:
-</p><p>
-A. Download it from <a href="http://strijov.com/files/mvr61.zip">http://strijov.com/files/mvr61.zip</a>, unzip and run <code>"main.m"</code>.
-</p><p>
-B. Get the latest version: connect your SVN shell extension to <a hef="http://sourceforge.net/projects/mvr">sourceforge.net</a>.
-To do that you need:
-<ol>
-</li><li>download and install <a href="http://tortoisesvn.net/downloads">TortioseSVN</a>;
-</li><li>make the folder somedrive:\somefolder\mvr;
-</li><li>click the folder to get the context menu and choose Tortoise->Checkout;
-</li><li>put URL of Repository https://mvr.svn.sourceforge.net/svnroot/mvr;
-</li><li>this will download the software.
-</li></ol>
 </p>
 <h2>Run demo project</h2>
 <p>To watch the MVR demo you must run <code>main.m</code>&nbsp;&#151; demo project. 

@@ -1,0 +1,8 @@
+% Model in short notation; default parameters vector, can be omitted
+% these two fields must be separated with the sign ';'.
+times2_(hyperbola_(linear_(x1)),sin_(x1)); []
+plus2_(plus2_(sin_(x1),linear_(x1)),plus_(x1)); []
+plus2_(sin_(x1),normal_(x1));                   []
+plus2_(plus2_(plus2_(normal_(x1),normal_(x1)),normal_(x1)),x1); []
+times2_(linear_(x1),sin_(x1));                   []
+times2_(hyperbola_(x1),sina_(x1));                []

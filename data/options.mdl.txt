@@ -1,0 +1,9 @@
+% Model in short notation; default parameters vector, can be omitted
+% these two fields must be separated with the sign ';'.
+plus2_(plus_(mult_(omexpl_(frac2_(minus2_(ln_(x1),const313_(x1)),sqrt_(x2))))),mult_(arctanl_(frac2_(minus2_(ln_(x1),const313_(x1)),sqrt_(x2))))); []
+%)
+%
+%
+linear_(normal_(frac2_(x1,sqrta_(x2)))); []
+plus2_(parabola_(x2),normal_(x1)); []
+times2_(parabola_(x2),linear_(normalpdf_(x1))); []

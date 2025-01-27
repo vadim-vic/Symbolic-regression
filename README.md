@@ -1,7 +1,6 @@
 # Symbolic-regression
 Multivariate interpretable symbolic regression models generator
 
-<html><title>M-File Help: main</title><body>
 <h1>MVR Composer readme</h1>
 <p>MVR generates and selects non-linear regression models. It was written in the Matlab language and intended to be used as an open-source code.
 </p>

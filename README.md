@@ -6,9 +6,9 @@ Multivariate interpretable symbolic regression models generator
 </p>
 <h2>Introduction</h2>
 <p>This software is intended as a curve-fitting tool. The models (curves) are generated using the set of primitive functions.
-More information on the algorithms could be found in <a href="http://strijov.com/papers/strijov08cnrs.pdf">the presentation</a>,
+<!-- More information on the algorithms could be found in <a href="http://strijov.com/papers/strijov08cnrs.pdf">the presentation</a>,
 and in <a href="http://strijov.com/papers/strijov06poisk_jct_en.pdf">the paper</a>. The complete documentation in English is coming.
-The applications are biology, physics, ecology, economics, etc. 
+The applications are biology, physics, ecology, economics, etc.  -->
 </p><p>
 Mathematical modeling has two issues:
 first, to create a model of a dynamic system using knowledge

@@ -5,7 +5,7 @@ Multivariate interpretable symbolic regression models generator
 <p>MVR generates and selects non-linear regression models. It was written in the Matlab language and intended to be used as an open-source code.
 </p>
 <h2>Introduction</h2>
-<p>This software is intended as a curve-fitting tool. The models (curves) are generated using the set of primitive functions.
+<p>This software is intended as a curve-fitting tool. The models (curves) are generated using a set of primitive functions.
 <!-- More information on the algorithms could be found in <a href="http://strijov.com/papers/strijov08cnrs.pdf">the presentation</a>,
 and in <a href="http://strijov.com/papers/strijov06poisk_jct_en.pdf">the paper</a>. The complete documentation in English is coming.
 The applications are biology, physics, ecology, economics, etc.  -->
@@ -24,10 +24,9 @@ the result the  model could be explained and it relies on the measured
 data.
 It allows getting the model with fair quality and generalization ability in comparison to universal models.
 </p><p>
-A model is selected from an inductively generated set of the trial models
+A model is selected from an inductively generated set of trial models
 according to the notion of adequacy: the model must be simple,
-stable and precise. These criterions are target functions and they
-are assigned according to given data. It is supposed that given
+stable, and precise. These criteria are assigned according to the given data. It is supposed that the given
 data carries the information on the searched model and the noise
 as well. The hypothesis of the probability distribution function
 defines a data generation hypothesis and as follows, the target
@@ -35,8 +34,8 @@ functions.
 </p><p>
 The outline of the automatic model creation is the following. A
 sample data, which consist of several independent variables and
-one dependent variable are given. Experts makes set of terminal
-function. These models are arbitrary superposition, inductively
+one dependent variable are given. Experts make a set of terminal
+functions. These models are arbitrary superposition, inductively
 generated using terminal functions.
 Experts could also make initial models for inductive modification.
 When generated models are tuned, a model of the optimal structure is
@@ -58,7 +57,7 @@ main('options.prj.txt') <code>stock-market options (Brent Crude Oil) modelling</
 </pre>
 
 <h2>Make your own project</h2>
-<p>To make your own project you have to do the following.</p>
+<p>To make your project you have to do the following.</p>
 <ol>
 <li>Make data file <code>"filename.dat.txt"</code> with the content
 <pre><code>
@@ -84,7 +83,7 @@ function y=function_(w,x)
 y = w(1)*x;
 </code></pre>
 See more examples in this folder, and note the main rules:
-    <ul><li> no matter what shape x has, scalar, vector or matrix, y must be of the same shape.
+    <ul><li> no matter what shape x has, scalar, vector, or matrix, y must be of the same shape.
         </li><li> use parameter vector <code>w</code> as a set of scalars say, <code>w(1), ..., w(k)</code>. See the example above.
         </li><li> function names are <code>"function[number of arguments][a|l]_.m"</code>, where
             <ul><li> <code>a</code> for the affine transformation of the argument, <code>say y = sqrt(w(2)* x + w(1));</code>
